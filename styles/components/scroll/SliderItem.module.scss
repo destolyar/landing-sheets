@@ -1,0 +1,101 @@
+@import '../../utils/utils.scss';
+
+.container {
+    height: 550px;
+    margin-top: 40px;
+    padding: 40px 20px;
+    background-color: $slider-item-background;
+    border-radius: 20px;
+
+    @include desktop {
+        height: 500px;
+    }
+
+    @include laptop {
+        height: 600px;
+    }
+
+    @include phones {
+        height: 480px;
+    }
+}
+
+.header {
+    display: flex;
+}
+
+.profile {
+    max-height: 100px;
+    max-width: 100px;
+    margin-right: 20px;
+
+    @include phones {
+        max-height: 50px;
+        max-width: 50px;
+    }
+}
+
+.info {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.name, .role {
+    @include scroll-subtitle;
+}
+
+.role {
+    color: hsla(0,0%,95.3%,.5);
+}
+
+.stars {
+    height: 23px;
+    margin-right: auto;
+}
+
+.testimonial {
+    @include scroll-subtitle;
+    font-style: italic;
+    margin-top: 20px;
+}
+
+.results {
+    margin-top: 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+
+    @include phones {
+        align-items: flex-start;
+    }
+}
+
+.resultsItem {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    @include phones {
+        align-items: flex-start
+    }
+}
+
+.result {
+    margin: 0 auto;
+    @include scroll-second;
+    white-space: nowrap;
+}
+
+.subtitle {
+    margin: 0 auto;
+    @include scroll-first;
+
+    @include phones {
+        padding: 0 10px;
+        text-align: center;
+    }
+}

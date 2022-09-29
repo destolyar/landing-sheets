@@ -1,0 +1,69 @@
+@import '../utils/utils.scss';
+
+.container {
+    display: flex;
+    width: 35%;
+    margin: 30px 0;
+    padding: 16px;
+    border-radius: 10px;
+    background-color: $timer-background;
+
+    @include desktop {
+        width: 60%;
+    }
+
+    @include laptop {
+        width: 80%;
+    }
+
+    @include tablets {
+        width: 100%;
+    }
+}
+
+.form {
+    display: flex;
+    width: 100%;
+    margin: 30px 0;
+    padding: 16px;
+    border-radius: 10px;
+    background-color: $timer-background;
+}
+
+.icon {
+    margin-right: 16px;
+}
+
+.info {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 700;
+    color: $timer-text;
+}
+
+.time {
+    width: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 5px;
+}
+
+.type {
+    font-size: 12px;
+    font-weight: 300;
+    color: $time-secondary-text;
+}
+
+.title {
+    font-size: 15px;
+    margin-right: 20px;
+}

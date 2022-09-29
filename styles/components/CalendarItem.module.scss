@@ -1,0 +1,93 @@
+@import '../utils/utils.scss';
+
+.day {
+    color: $primary-text-color;
+}
+
+.date {
+    font-size: 26px;
+    color: $secondary-text-color;
+}
+
+.container {
+    margin-bottom: 40px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    position: relative;
+    max-width: 560px;
+    margin-top: 15px;
+    padding: 30px;
+    border-radius: 10px;
+    border: 2px solid rgba(0,0,0,.2);
+
+    @include phones {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 20px;
+    }
+}
+
+.important {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 6px 15px;
+    font-size: 16px;
+    border-radius: 20px;
+    color: $third-text-color;
+    background-color: #ff6a6a;
+
+    @include tablets {
+        top: 5px;
+        right: 5px;
+    }
+
+    @include phones {
+        top: 10px;
+        right: 10px;
+    }
+}
+
+.timeline {
+    width: 120%;
+    margin-left: -10%;
+
+    @include laptop {
+        margin: 0;
+        width: 100%;
+    }
+}
+
+.icon {
+    margin-right: 15px;
+
+    @include phones {
+        margin-bottom: 10px;
+    }
+}
+
+.title {
+    font-size: 24px;
+    color: $secondary-text-color;
+    
+    @include phones {
+        margin-bottom: 10px;
+    }
+}
+
+.description {
+    font-size: 18px;
+    color: $primary-text-color;
+    
+    @include phones {
+        margin-bottom: 7px;
+    }
+}
+
+.link {
+    font-size: 20px;
+    color: $link-primary;
+}

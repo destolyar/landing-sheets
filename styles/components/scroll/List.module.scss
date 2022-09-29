@@ -1,0 +1,29 @@
+@import '../../utils/utils.scss';
+
+.container {
+    min-height: 450px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-direction: column;
+
+    @include desktop {
+        min-height: 450px
+    }
+
+    @include tablets {
+        min-height: 400px;
+    }
+
+    @include phones {
+        min-height: 250px;
+    }
+}
+
+.title {
+    @include scroll-second;
+}
+
+.fact {
+    @include scroll-first;
+}

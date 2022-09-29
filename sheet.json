@@ -1,0 +1,16 @@
+{
+    "type": "service_account",
+    "project_id": "demandplus-323207",
+    "private_key_id": "24308c98d4aa2cc158e7e3959f75a96159ae0d96",
+    "client_email": "socialselling@demandplus-323207.iam.gserviceaccount.com",
+    "client_id": "104035011510885765761",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/socialselling%40demandplus-323207.iam.gserviceaccount.com",
+
+    "GOOGLE_CLIENT_EMAIL": "socialselling@demandplus-323207.iam.gserviceaccount.com",
+    "GOOGLE_PRIVATE_KEY": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDABVeHp8lC5GIj\nxCELb67gXDTAYwSyLV5QfJuEICaVoYunfvQJizitDCuM4KoNrwjN9/57AXiaSeml\nrgDq7LBEQP9dOnpwSXavnmDUIdlqhppblI3ikNfcKSMGdEGKVfIsc6JpvH1cWvQk\n6+C8NiFL6i0laehJBi6oS2WcSZ4TnMaMLCAReONfQIr9rh4vAKLKzH23GPM74YnB\n56D2sYAtOZ3JJ4e2vdD0xHRAJ/ACGcUMZIGKgzd0vrZAft5c4wC2fqN5FdHIjd03\nXA+5nqOAxtOOivC5ZkIobmK52GQJIravWwR4pIik1RZs42bB9gFmOFC58AL3zBjm\nvuGSzaZ1AgMBAAECggEAUORPNeokmoXspAWVKCSx5nlhjaSJD2iWYVDFEPmcV4+4\n7eRI+RZJ13iXhh8E9IPGsUImVfpOLK0zfSTa5Ry1uuMo0MT4XIJOOfh98Q+bcElp\nEGh6BzaegPRheXATRiwju78w7dtGclgsnrsxrwgcqcbqoubFQLIWiLZOhXLr4XV/\nuUfuLFn3NZY1PwjjJbCHevUGaecyNearc2AbAZLlcI9IpwaohsXGq0kzW9D2DDbX\nWDx/+jv1LOkJ4ZqPzWRxgQkZ/drGH72s0w8IkUKPBIoMdot8jNaLVnhBXU5jeVht\n4+wse2+kgwtvxmxzr1Eo9qyu5+QPQ4x6TFI7RsYU9wKBgQD2718o81bYegDXdlB6\nhHeiHpxBV7fdYx5/VbBVIAlA/sg/Scz4IEfaU8+/DEBc6XA0sfbzLPOYhDx8z2QP\nLtWs0gepr8rCu8F3IcMGYWziNHWtJJGf4noXGP0v8RuYC4ADYvRe5N3x7oBNEycH\nr6diHNOJZoR9329/PnbDgw9emwKBgQDHEebWBYIwSVGIq0NXPv7h5uSCKtqmx50N\neROSBAwKwnxRaA2/OKOGPtEfjImaiADFcTdxxYLUjLmqqGWvh1NSeoQft0UFyDA5\n2QM2/YbQV4NPRbuWe3nn9t6CRHoLzU7iTomlkSQk54W27pcEHXCxAguFTg+RUejH\nXQfIq8JYLwKBgQCSdgG0ETiGZz6OjS9Iq78lWhCFtRhp5/tTvSg8JSc39KYi24wF\n82eKuEE06HhYY2DY8GEvdI76/BvAT2Xil33G5kADRi/19lTWayD4bNqfBExzqIfz\nE+okPv8U62XZdaC04YFds1NsxnA0xtJUfbvCtqRFD5gv7FF+YDci2V5JVwKBgCP3\nnw5yRlh1Fs8rqmocDq9AKW8/UOwrSrwBcUDDjG1xQEbxFvLCyADcXqplmQMbqZAC\n6bKbrgy7NFyaOm0hdTOEwVR9p3Ho/pWlGQiZe/8uoKH1BnSk8JyxpPhCaQ6y1Jrc\n98+7Tp2AW093AkATFaZVqUE3nmZyNy22KE7ggaevAoGAa64HBaqXEVV2UvSh+y4s\nJpl+f7DfZI0Kfsoj6l/EyKnf+1PFs3V++pEYllTjm8rzR/FK8GvYCEAeyI4foJcB\n7tZgVyWFAGB5d++pjfCoFe45WTHg0d/Nx8hlMI1Ahd8/BZ09/LAhfpoaVA+BaOii\ncvKku+RofJGtIo+JTlk42w0=\n-----END PRIVATE KEY-----\n",
+    "REGISTER_SHEET_ID": "1Vey6LOux7KHCD4xcSDZn7w_2pT0qalLydLUleuHVzzI",
+    "INVITE_SHEET_ID": "10iOCGpE7x1j7eEtsV1QY5Vh82--JKG6LI5_iyIDiSz4"
+  }

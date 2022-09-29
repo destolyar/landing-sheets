@@ -1,0 +1,67 @@
+@mixin scroll-first {
+    font-size: 1.9vw;
+    font-weight: 700;
+
+    @include laptop {
+        font-size: 3.5vw;
+    }
+}
+
+@mixin scroll-second {
+    font-size: 3vw;
+    font-weight: 700;
+    text-align: center;
+
+    @include desktop {
+        font-size: 4vw;
+    }
+
+    @include tablets {
+        font-size: 6vw;
+    }
+}
+
+@mixin scroll-subtitle {
+    font-size: 1.5vw;
+    font-weight: 700;
+    text-align: center;
+
+    @include laptop {
+        font-size: 3vw;
+    }
+
+    @include tablets {
+        font-size: 4vw;
+    }
+}
+
+@mixin scroll-main-result {
+    font-size: 5vw;
+
+    @include desktop {
+        font-size: 6vw;
+    }
+
+    @include laptop {
+        font-size: 10vw;
+    }
+
+    @include phones {
+        font-size: 12vw;
+    }
+}   
+
+@mixin screen-attention {
+    font-size: 0.8vw;
+    font-weight: 700;
+    text-align: center;
+
+    @include desktop {
+        font-size: 1.6vw;
+    }
+
+
+    @include tablets {
+        font-size: 3vw;
+    }
+}

@@ -1,0 +1,16 @@
+@import '../../utils/utils.scss';
+
+.container {
+    min-height: 250px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+    @include scroll-first;
+}
+
+
+.mail {
+    position: relative;
+}

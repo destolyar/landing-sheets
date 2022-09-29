@@ -1,0 +1,93 @@
+@import '../utils/utils.scss';
+
+.container {
+    max-width: 500px;
+    padding: 0 40px;
+
+    @include phones {
+        padding: 0;
+    }
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.profile, .email, .submit {
+    width: 100%;
+    margin-bottom: 10px;
+    min-height: 70px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 2px solid #cecece;
+
+    @include desktop {
+        min-height: 65px;
+        font-size: 17px;
+    }
+
+    @include laptop {
+        font-size: 16px;
+    }
+
+    @include tablets {
+        width: 100%;
+    }
+}
+
+.profile, .email {
+    padding-left: 40px;
+    background-position-y: 24px;
+    background-position-x: 10px;
+    background-repeat: no-repeat;
+
+    @include desktop {
+        background-position-y: 18px;
+    } 
+}
+
+.profile {
+    background-image: url('../../public/profile.svg');
+}
+
+.email {
+    background-position-y: 27px;
+    background-image: url('../../public/mail.svg');
+
+    @include desktop {
+        background-position-y: 21px;
+    } 
+}
+
+.input:focus {
+    border: 2px solid $button-primary;
+}
+
+.submit {
+    font-weight: 700;
+    color: $third-text-color;
+    background-color: $button-primary;
+    border: 0;
+
+    &:hover {
+        @include default-hover;
+        background-color: $button-active;
+    }
+}
+
+.discount {
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    color: $primary-text-color;
+}
+
+.overline {
+    text-decoration: line-through;
+}
+
+.green {
+    color: $discount-text-color;
+}

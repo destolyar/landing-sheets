@@ -1,0 +1,28 @@
+@import '../../utils/utils.scss';
+
+.container {
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    @include desktop {
+        height: 350px;
+    }
+
+    @include tablets {
+        height: 300px;
+    }
+
+    @include phones {
+        height: 250px;
+    }
+}
+
+.title {
+    @include scroll-first;
+}
+
+.image {
+    max-height: 160px;
+}

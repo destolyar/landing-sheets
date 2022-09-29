@@ -1,0 +1,53 @@
+@import '../../utils/utils.scss';
+
+.container {
+    min-height: 250px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.title {
+    @include scroll-first;
+}
+
+.results {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.subtitle {
+    @include scroll-subtitle;
+}
+
+.result {
+    @include scroll-second;
+}
+
+.mainResult {
+    @include scroll-main-result;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.attention {
+    display: flex;
+    margin: 30px auto;
+    padding: 12px;
+    color: $attention-text;
+    background-color: rgba(135,212,179,.2);
+    border-radius: 10px;
+}
+
+.icon {
+    margin-right: 10px;
+}
+
+.attentionText {
+    @include screen-attention;
+}

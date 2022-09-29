@@ -1,0 +1,82 @@
+@import '../utils/utils.scss';
+
+.container {
+    display: flex;
+    padding: 30px;
+
+    @include laptop {
+        flex-direction: column;
+    }
+}
+
+.section {
+    position: fixed;
+    left: 8vw;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 500px;
+
+    @include desktop {
+        max-width: 450px;
+        left: 40px;
+    }
+
+    @include laptop {
+        max-width: 500px;
+        position: static;
+        margin: 0 auto;
+    }
+}
+
+.title, .list {
+    max-width: 500px;
+}
+
+.title {
+    font-size: 35px;
+    color: $primary-text-color;
+
+    @include laptop {
+        text-align: center;
+    }
+}
+
+.list {
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    color: $secondary-text-color;
+}
+
+.marker {
+    margin-right: 10px;
+}
+
+.footerFormContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.linkContainer {
+    margin: 80px auto;
+    text-align: center;
+}
+
+.link {
+    text-decoration: underline;
+
+    &:hover {
+        text-decoration: none;
+    }
+}

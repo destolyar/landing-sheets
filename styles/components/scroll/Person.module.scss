@@ -1,0 +1,35 @@
+@import '../../utils/utils.scss';
+
+.container {
+    margin-top: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.man {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10vh;
+}
+
+.name {
+    margin-top: auto;
+    white-space: nowrap;
+    @include scroll-first;
+}
+
+.arrow {
+    max-width: 30%;
+    margin-top: auto;
+    margin-bottom: 20px;
+}
+
+.photo {
+    max-width: 45%;
+}
+
+.description {
+    margin-top: auto;
+    @include scroll-first;
+}

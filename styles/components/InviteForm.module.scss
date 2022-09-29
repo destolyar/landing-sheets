@@ -1,0 +1,116 @@
+@import '../utils/utils.scss';
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 1240px;
+    width: 100%;
+    padding: 30px;
+    border-radius: 10px;
+    color: $third-text-color;
+    background-image: url("../../public/sections-background.png");
+    background-position: center;
+    
+    @include tablets {
+        background-size: cover;
+    }
+}
+
+.form {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+
+    @include tablets {
+        flex-direction: column;
+    }
+}
+
+.text, .email, .button {
+    width: 24%;
+    min-height: 80px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 2px solid #cecece;
+
+    @include desktop {
+        min-height: 65px;
+        font-size: 17px;
+    }
+
+    @include laptop {
+        font-size: 16px;
+    }
+
+    @include tablets {
+        width: 100%;
+        margin-top: 10px;
+    }
+}
+
+.text, .email {
+    padding-left: 35px;
+    background-position-y: 26px;
+    background-position-x: 10px;
+    background-repeat: no-repeat;
+
+    @include desktop {
+        background-position-y: 18px;
+    } 
+}
+
+.text {
+    background-image: url('../../public/profile.svg');
+}
+
+.email {
+    background-position-y: 29px;
+    background-image: url('../../public/mail.svg');
+
+    @include desktop {
+        background-position-y: 21px;
+    } 
+}
+
+.input:focus {
+    border: 2px solid $button-primary;
+}
+
+.button {
+    font-weight: 700;
+    color: $third-text-color;
+    background-color: $button-primary;
+    border: 0;
+
+    &:hover {
+        @include default-hover;
+    }
+}
+
+.title {
+    margin: 0 auto;
+    margin-bottom: 35px;
+    font-size: 30px;
+}
+
+.opportunities {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    @include laptop {
+        flex-direction: column;
+    }
+}
+
+.opportunity {
+    display: flex;
+    margin: 0 10px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.icon {
+    margin-right: 10px;
+}

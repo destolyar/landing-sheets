@@ -1,0 +1,31 @@
+@import '../../utils/utils.scss';
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 40px 40px 15px 40px;
+    background-image: url("../../../public/scroll-item-background.png");
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    color: $third-text-color;
+
+    @include tablets {
+        padding: 20px 20px 10px 20px;
+    }
+}
+
+.button {
+    margin: 0 auto;
+}
+
+.arrow {
+    height: 4vw;
+
+    @include laptop {
+        height: 8vw;
+    }
+}
